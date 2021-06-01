@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        app:key="theme"
+        app:title="@string/pref_theme"
+        app:useSimpleSummaryProvider="true"
+        app:entries="@array/theme_entries"
+        app:entryValues="@array/theme_values"
+        app:defaultValue="-1" />
+
+    <SwitchPreferenceCompat
+        app:key="boot"
+        app:title="@string/pref_start_on_boot"
+        app:summary="@string/pref_start_on_boot_description"
+        app:defaultValue="false" />
+
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_start_on_boot_description">Если брандмауэр был запущен</string>
+    <string name="pref_start_on_boot">Запуск при загрузке</string>
+    <string name="pref_theme">Тема</string>
+    <string name="notification_text">Брандмауэр работает</string>
+    <string name="visit_github">Посетить GitHub</string>
+    <string name="about_text">Базовый легковесный брандмауэр для приложений</string>
+    <string name="no_app_selected_to_run">Выберите как минимум одно приложение для запуска</string>
+    <string name="failed_to_initialize_vpn">Ошибка при инициализации VPN-сервиса</string>
+    <string name="action_about">О программе</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_refresh">Обновить список</string>
+    <string name="action_show_checked">Отобразить выбранные</string>
+    <string name="action_stop">Остановить</string>
+    <string name="action_start">Запустить</string>
+    <string name="action_search">Поиск</string>
+    <string name="stop_to_configure">Остановите для настройки</string>
+    <string-array name="theme_entries">
+        <item>Автоматически</item>
+        <item>Светлая</item>
+        <item>Темная</item>
+    </string-array>
+</resources>
